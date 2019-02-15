@@ -8,19 +8,43 @@
 }
 
 .tech {
-  margin: 5px;
+  margin: 2px;
 }
 
 .user {
   text-align: center;
-  font-size: 60px;
+  font-size: 55px;
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+ 
+  justify-content: space-around;
+ 
   p {
     font-size: 16px;
   }
+ 
+  @media only screen and (min-width: $cut) {
+    flex-wrap: nowrap;
+    font-size: 75px;
+  }
+}
+
+.users {
+  text-align: center;
+  font-size: 55px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+  justify-content: space-between;
+ 
+  p {
+    font-size: 16px;
+  }
+ 
   @media only screen and (min-width: $cut) {
     flex-wrap: nowrap;
     font-size: 75px;
