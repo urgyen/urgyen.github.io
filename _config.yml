@@ -16,3 +16,5 @@ fb_username:  https://www.facebook.com/urgyen777
 
 
 exclude: ['package.json', 'src' , 'node_modules']
+
+theme: jekyll-theme-hacker
